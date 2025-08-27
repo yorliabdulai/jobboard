@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { Job } from '@/lib/filters';
-import { formatDate, formatSalaryRange, truncateText, getExperienceColor, getJobTypeColor } from '@/lib/formatting';
+import { formatDate, truncateText, getExperienceColor, getJobTypeColor, formatSalary } from '@/lib/formatting';
 
 interface JobCardProps {
   job: Job;
@@ -97,7 +97,7 @@ export default function JobCard({ job, onSaveJob, onUnsaveJob, isSaved = false }
         </div>
 
         <div className="text-sm text-gray-600">
-          💰 {formatSalaryRange(job.salary.min, job.salary.max, job.salary.currency, job.salary.period)}
+          💰 <span className="font-semibold text-gray-900">{formatSalary(job.salary)}</span>
         </div>
 
         <div className="text-sm text-gray-500">

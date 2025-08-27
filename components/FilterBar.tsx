@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { FilterOptions, Job } from '@/lib/filters';
-import { getUniqueValues, getSalaryRange } from '@/lib/filters';
+import { getUniqueValues, getSalaryRange, getSalaryRangeUSD, getPresetSalaryRanges } from '@/lib/filters';
 
 interface FilterBarProps {
   jobs: Job[];
@@ -22,6 +22,8 @@ export default function FilterBar({ jobs, onFiltersChange }: FilterBarProps) {
   const locations = getUniqueValues(jobs, 'location');
   const experiences = getUniqueValues(jobs, 'experience');
   const salaryRange = getSalaryRange(jobs);
+  const salaryRangeUSD = getSalaryRangeUSD(jobs);
+  const presetSalaryRanges = getPresetSalaryRanges();
 
   useEffect(() => {
     const newFilters: FilterOptions = {};
@@ -118,6 +120,26 @@ export default function FilterBar({ jobs, onFiltersChange }: FilterBarProps) {
                 <option key={exp} value={exp}>{exp}</option>
               ))}
             </select>
+
+            {/* Salary Filter Indicator */}
+            {(filters.salaryMin !== undefined || filters.salaryMax !== undefined) && (
+              <div className="inline-flex items-center px-3 py-2 bg-primary-50 border border-primary-200 rounded-md text-sm text-primary-700">
+                <span className="mr-2">💰</span>
+                {filters.salaryMin !== undefined && filters.salaryMax !== undefined
+                  ? `$${filters.salaryMin.toLocaleString()} - $${filters.salaryMax.toLocaleString()}`
+                  : filters.salaryMin !== undefined
+                  ? `$${filters.salaryMin.toLocaleString()}+`
+                  : `Up to $${filters.salaryMax?.toLocaleString()}`
+                }
+                <button
+                  onClick={() => updateFilters({ salaryMin: undefined, salaryMax: undefined })}
+                  className="ml-2 text-primary-500 hover:text-primary-700"
+                  aria-label="Clear salary filter"
+                >
+                  ×
+                </button>
+              </div>
+            )}
           </div>
 
           {/* Advanced Filters Toggle */}
@@ -143,25 +165,61 @@ export default function FilterBar({ jobs, onFiltersChange }: FilterBarProps) {
         {/* Advanced Filters */}
         {isExpanded && (
           <div className="mt-4 pt-4 border-t border-gray-200">
-            <div className="flex flex-wrap items-center gap-6">
-              <div className="flex items-center gap-2">
-                <label className="text-sm font-medium text-gray-700">Salary Range:</label>
-                <input
-                  type="number"
-                  placeholder="Min"
-                  value={filters.salaryMin || ''}
-                  onChange={(e) => updateFilters({ salaryMin: e.target.value ? parseInt(e.target.value) : undefined })}
-                  className="w-24 px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
-                />
-                <span className="text-gray-500">to</span>
-                <input
-                  type="number"
-                  placeholder="Max"
-                  value={filters.salaryMax || ''}
-                  onChange={(e) => updateFilters({ salaryMax: e.target.value ? parseInt(e.target.value) : undefined })}
-                  className="w-24 px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
-                />
-                <span className="text-sm text-gray-500">USD</span>
+            <div className="space-y-4">
+              {/* Salary Range Section */}
+              <div>
+                <h3 className="text-sm font-medium text-gray-700 mb-3">Salary Range (USD)</h3>
+                
+                {/* Preset Salary Ranges */}
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {presetSalaryRanges.map((range) => {
+                    const isActive = filters.salaryMin === range.min && filters.salaryMax === range.max;
+                    return (
+                      <button
+                        key={range.label}
+                        onClick={() => updateFilters({ 
+                          salaryMin: isActive ? undefined : range.min, 
+                          salaryMax: isActive ? undefined : range.max 
+                        })}
+                        className={`px-3 py-2 text-sm rounded-md border transition-colors ${
+                          isActive 
+                            ? 'bg-primary-100 border-primary-500 text-primary-700' 
+                            : 'bg-white border-gray-300 text-gray-700 hover:border-primary-300'
+                        }`}
+                      >
+                        {range.label}
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {/* Custom Salary Range */}
+                <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-2">
+                    <label className="text-sm font-medium text-gray-600">Custom Range:</label>
+                    <input
+                      type="number"
+                      placeholder="Min"
+                      value={filters.salaryMin || ''}
+                      onChange={(e) => updateFilters({ salaryMin: e.target.value ? parseInt(e.target.value) : undefined })}
+                      className="w-24 px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+                    />
+                    <span className="text-gray-500">to</span>
+                    <input
+                      type="number"
+                      placeholder="Max"
+                      value={filters.salaryMax || ''}
+                      onChange={(e) => updateFilters({ salaryMax: e.target.value ? parseInt(e.target.value) : undefined })}
+                      className="w-24 px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+                    />
+                    <span className="text-sm text-gray-500">USD/month</span>
+                  </div>
+                  
+                  {/* Current Range Display */}
+                  <div className="text-sm text-gray-500">
+                    Available: ${salaryRangeUSD.min.toFixed(0)} - ${salaryRangeUSD.max.toFixed(0)}
+                  </div>
+                </div>
               </div>
             </div>
           </div>

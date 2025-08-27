@@ -36,6 +36,21 @@ export function formatSalaryRange(min: number, max: number, currency: string, pe
   return `${minFormatted} - ${maxFormatted} per ${periodText}`;
 }
 
+export function formatSalary(salary: { min: number; max: number; currency: string; period: string }): string {
+  const formatAmount = (amount: number) => {
+    if (amount >= 1000) {
+      return `$${(amount / 1000).toFixed(1)}K`;
+    }
+    return `$${amount.toFixed(0)}`;
+  };
+  
+  if (salary.min === salary.max) {
+    return `${formatAmount(salary.min)}/${salary.period}`;
+  }
+  
+  return `${formatAmount(salary.min)} - ${formatAmount(salary.max)}/${salary.period}`;
+}
+
 export function truncateText(text: string, maxLength: number): string {
   if (text.length <= maxLength) return text;
   return text.substring(0, maxLength).trim() + '...';
