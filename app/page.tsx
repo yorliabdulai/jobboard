@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import Link from 'next/link';
 import SearchBox from '@/components/SearchBox';
 import FilterBar from '@/components/FilterBar';
 import JobCard from '@/components/JobCard';
@@ -192,12 +193,16 @@ export default function HomePage() {
     const newSavedJobs = [...savedJobs, jobId];
     setSavedJobs(newSavedJobs);
     localStorage.setItem('savedJobs', JSON.stringify(newSavedJobs));
+    // Dispatch custom event to update header counter
+    window.dispatchEvent(new Event('savedJobsChanged'));
   };
 
   const handleUnsaveJob = (jobId: string) => {
     const newSavedJobs = savedJobs.filter(id => id !== jobId);
     setSavedJobs(newSavedJobs);
     localStorage.setItem('savedJobs', JSON.stringify(newSavedJobs));
+    // Dispatch custom event to update header counter
+    window.dispatchEvent(new Event('savedJobsChanged'));
   };
 
   // Get paginated results
@@ -227,6 +232,17 @@ export default function HomePage() {
               Search, filter, and apply to jobs that match your skills and career goals.
             </p>
             <SearchBox onSearch={handleSearch} />
+            <div className="mt-6">
+              <Link
+                href="/saved"
+                className="inline-flex items-center px-6 py-3 border border-primary-600 text-primary-600 bg-white rounded-md hover:bg-primary-50 transition-colors font-medium"
+              >
+                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                </svg>
+                View Saved Jobs ({savedJobs.length})
+              </Link>
+            </div>
           </div>
         </div>
       </section>

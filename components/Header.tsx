@@ -1,10 +1,39 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [savedJobsCount, setSavedJobsCount] = useState(0);
+
+  useEffect(() => {
+    // Load saved jobs count from localStorage
+    const savedJobs = localStorage.getItem('savedJobs');
+    if (savedJobs) {
+      setSavedJobsCount(JSON.parse(savedJobs).length);
+    }
+
+    // Listen for changes to saved jobs
+    const handleStorageChange = () => {
+      const savedJobs = localStorage.getItem('savedJobs');
+      if (savedJobs) {
+        setSavedJobsCount(JSON.parse(savedJobs).length);
+      } else {
+        setSavedJobsCount(0);
+      }
+    };
+
+    window.addEventListener('storage', handleStorageChange);
+    
+    // Also listen for custom events (for same-tab updates)
+    window.addEventListener('savedJobsChanged', handleStorageChange);
+
+    return () => {
+      window.removeEventListener('storage', handleStorageChange);
+      window.removeEventListener('savedJobsChanged', handleStorageChange);
+    };
+  }, []);
 
   return (
     <header className="bg-white shadow-sm border-b border-gray-200">
@@ -30,9 +59,14 @@ export default function Header() {
             </Link>
             <Link 
               href="/saved" 
-              className="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors"
+              className="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors relative"
             >
               Saved Jobs
+              {savedJobsCount > 0 && (
+                <span className="absolute -top-1 -right-1 bg-primary-600 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
+                  {savedJobsCount}
+                </span>
+              )}
             </Link>
           </nav>
 
@@ -67,10 +101,15 @@ export default function Header() {
               </Link>
               <Link 
                 href="/saved" 
-                className="text-gray-700 hover:text-primary-600 block px-3 py-2 text-base font-medium"
+                className="text-gray-700 hover:text-primary-600 block px-3 py-2 text-base font-medium relative"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Saved Jobs
+                {savedJobsCount > 0 && (
+                  <span className="absolute top-2 right-3 bg-primary-600 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
+                    {savedJobsCount}
+                  </span>
+                )}
               </Link>
             </div>
           </div>

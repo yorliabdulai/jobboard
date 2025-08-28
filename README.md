@@ -4,7 +4,7 @@ A responsive, accessible job board application built with Next.js, TypeScript, a
 
 ## 🚀 Live Demo
 
-[Deploy to Vercel](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/jobboard)
+[Deploy to Netlify](https://jobboard.app.netlify)
 
 ## ✨ Features
 
@@ -48,7 +48,7 @@ A responsive, accessible job board application built with Next.js, TypeScript, a
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/jobboard.git
+   git clone https://github.com/yorliabdulai/jobboard
    cd jobboard
    ```
 
