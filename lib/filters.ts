@@ -112,7 +112,7 @@ export function getUniqueValues(data: Job[], field: keyof Job): string[] {
   }
   
   const values = data.map(job => job[field] as string);
-  return [...new Set(values)].filter(Boolean).sort();
+  return Array.from(new Set(values)).filter(Boolean).sort();
 }
 
 export function getSalaryRange(data: Job[]): { min: number; max: number } {
