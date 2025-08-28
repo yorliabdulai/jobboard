@@ -4,7 +4,7 @@ A responsive, accessible job board application built with Next.js, TypeScript, a
 
 ## 🚀 Live Demo
 
-[Deploy to Netlify](https://jobboard.app.netlify)
+[Deployed to Netlify](https://jobboardgh.netlify.app/)
 
 ## ✨ Features
 
