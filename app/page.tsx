@@ -10,9 +10,7 @@ import Pagination from '@/components/Pagination';
 import EmptyState from '@/components/EmptyState';
 import LoadingIndicator from '@/components/LoadingIndicator';
 import { Job, FilterOptions, applySearch, applyFilters, applySort, paginate } from '@/lib/filters';
-
-// Import jobs from external data file
-import jobsData from '@/data/jobs.json';
+import { getAllJobs } from '@/lib/jobs';
 
 export default function HomePage() {
   const router = useRouter();
@@ -26,13 +24,19 @@ export default function HomePage() {
   const [savedJobs, setSavedJobs] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
-  const jobsPerPage = 12; // Increased from 10 for better UX
+  const jobsPerPage = 12;
 
-  // Load jobs data
+  // Load jobs data synchronously from the jobs module
   useEffect(() => {
-    setJobs(jobsData);
-    setFilteredJobs(jobsData);
-    setIsLoading(false);
+    try {
+      const jobsData = getAllJobs();
+      setJobs(jobsData);
+      setFilteredJobs(jobsData);
+    } catch (error) {
+      console.error('Error loading jobs:', error);
+    } finally {
+      setIsLoading(false);
+    }
   }, []);
 
   // Load saved jobs from localStorage
@@ -236,3 +240,5 @@ export default function HomePage() {
     </div>
   );
 }
+
+

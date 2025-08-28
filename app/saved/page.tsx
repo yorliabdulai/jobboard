@@ -1,44 +1,50 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
-import JobCard from '@/components/JobCard';
+import { useRouter, useSearchParams } from 'next/navigation';
+import Link from 'next/link';
 import SearchBox from '@/components/SearchBox';
 import FilterBar from '@/components/FilterBar';
+import JobCard from '@/components/JobCard';
 import Pagination from '@/components/Pagination';
 import EmptyState from '@/components/EmptyState';
 import LoadingIndicator from '@/components/LoadingIndicator';
 import { Job, FilterOptions, applySearch, applyFilters, applySort, paginate } from '@/lib/filters';
-
-// Import jobs from external data file
-import jobsData from '@/data/jobs.json';
+import { getAllJobs } from '@/lib/jobs';
 
 export default function SavedJobsPage() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   
   const [savedJobs, setSavedJobs] = useState<Job[]>([]);
   const [filteredJobs, setFilteredJobs] = useState<Job[]>([]);
+  const [savedJobIds, setSavedJobIds] = useState<string[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState('');
   const [activeFilters, setActiveFilters] = useState<FilterOptions>({});
-  const [savedJobIds, setSavedJobIds] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
-  const jobsPerPage = 12; // Increased from 10 for better UX
+  const jobsPerPage = 12;
 
   // Load saved jobs from localStorage and jobs data
   useEffect(() => {
-    const savedIds = localStorage.getItem('savedJobs');
-    if (savedIds) {
-      const ids = JSON.parse(savedIds);
-      setSavedJobIds(ids);
-      
-      // Filter to only include saved jobs from the full jobs data
-      const saved = jobsData.filter(job => ids.includes(job.id));
-      setSavedJobs(saved);
-      setFilteredJobs(saved);
+    try {
+      const savedIds = localStorage.getItem('savedJobs');
+      if (savedIds) {
+        const ids = JSON.parse(savedIds);
+        setSavedJobIds(ids);
+        
+        // Filter to only include saved jobs from the full jobs data
+        const jobsData = getAllJobs();
+        const saved = jobsData.filter(job => ids.includes(job.id));
+        setSavedJobs(saved);
+        setFilteredJobs(saved);
+      }
+    } catch (error) {
+      console.error('Error loading saved jobs:', error);
+    } finally {
+      setIsLoading(false);
     }
-    setIsLoading(false);
   }, []);
 
   // Apply search and filters
@@ -93,40 +99,29 @@ export default function SavedJobsPage() {
     window.dispatchEvent(new Event('savedJobsChanged'));
   };
 
-  // Handle save job (in case user wants to re-save)
-  const handleSaveJob = (jobId: string) => {
-    const newSavedJobIds = [...savedJobIds, jobId];
-    setSavedJobIds(newSavedJobIds);
-    localStorage.setItem('savedJobs', JSON.stringify(newSavedJobIds));
-    
-    // Dispatch custom event to update header counter
-    window.dispatchEvent(new Event('savedJobsChanged'));
+  // Go to main jobs page
+  const goToMainJobs = () => {
+    router.push('/');
   };
 
   // Get paginated results
   const { jobs: paginatedJobs, total, totalPages } = paginate(filteredJobs, currentPage, jobsPerPage);
 
-  // Clear all filters
-  const clearAllFilters = () => {
-    setSearchQuery('');
-    setActiveFilters({});
-  };
-
-  // Go back to main jobs page
-  const goToMainJobs = () => {
-    router.push('/');
-  };
-
   if (isLoading) {
     return (
       <div className="min-h-screen bg-gray-50">
-        <LoadingIndicator size="large" text="Loading your saved jobs..." className="min-h-screen" />
+        <LoadingIndicator size="large" text="Loading saved jobs..." className="min-h-screen" />
       </div>
     );
   }
 
   return (
     <div className="min-h-screen bg-gray-50">
+      {/* Skip to content link for accessibility */}
+      <a href="#main-content" className="skip-link">
+        Skip to main content
+      </a>
+
       {/* Header */}
       <section className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -160,29 +155,21 @@ export default function SavedJobsPage() {
       )}
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div id="main-content" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Results Summary */}
         <div className="mb-6">
           <h2 className="text-2xl font-semibold text-gray-900 mb-2">
             {filteredJobs.length === 0 
               ? (savedJobs.length === 0 ? 'No saved jobs' : 'No jobs match your criteria') 
-              : `${filteredJobs.length} job${filteredJobs.length === 1 ? '' : 's'} found`
+              : `${filteredJobs.length} saved job${filteredJobs.length === 1 ? '' : 's'} found`
             }
           </h2>
           {(searchQuery || Object.keys(activeFilters).length > 0) && (
-            <div className="flex items-center gap-4">
-              <p className="text-gray-600">
-                Showing results for {searchQuery && `"${searchQuery}"`} 
-                {searchQuery && Object.keys(activeFilters).length > 0 && ' and '}
-                {Object.keys(activeFilters).length > 0 && 'applied filters'}
-              </p>
-              <button
-                onClick={clearAllFilters}
-                className="text-sm text-primary-600 hover:text-primary-700 font-medium"
-              >
-                Clear all
-              </button>
-            </div>
+            <p className="text-gray-600">
+              Showing results for {searchQuery && `"${searchQuery}"`} 
+              {searchQuery && Object.keys(activeFilters).length > 0 && ' and '}
+              {Object.keys(activeFilters).length > 0 && 'applied filters'}
+            </p>
           )}
         </div>
 
@@ -193,26 +180,22 @@ export default function SavedJobsPage() {
               <JobCard
                 key={job.id}
                 job={job}
-                onSaveJob={handleSaveJob}
+                onSaveJob={() => {}} // No-op since we're on saved page
                 onUnsaveJob={handleUnsaveJob}
-                isSaved={savedJobIds.includes(job.id)}
+                isSaved={true}
               />
             ))}
           </div>
-        ) : savedJobs.length > 0 ? (
-          <EmptyState 
-            showResetButton={true}
-            onReset={clearAllFilters}
-            title="No jobs match your criteria"
-            description="Try adjusting your search or filters to find more jobs."
-          />
         ) : (
           <EmptyState 
+            title={savedJobs.length === 0 ? "No saved jobs yet" : "No jobs match your criteria"}
+            description={savedJobs.length === 0 
+              ? "Start browsing jobs and save the ones that interest you. Your saved jobs will appear here for easy access."
+              : "Try adjusting your search or filters to find more jobs."
+            }
+            buttonText="Browse Jobs"
             showResetButton={true}
             onReset={goToMainJobs}
-            title="No saved jobs yet"
-            description="Start browsing jobs and save the ones that interest you. Your saved jobs will appear here for easy access."
-            buttonText="Browse Jobs"
           />
         )}
 
@@ -231,3 +214,5 @@ export default function SavedJobsPage() {
     </div>
   );
 }
+
+
