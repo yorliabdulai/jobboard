@@ -223,3 +223,4 @@ export const mockJobs: Job[] = [
     companyLogo: '/company-logos/datasystems.png'
   }
 ];
+

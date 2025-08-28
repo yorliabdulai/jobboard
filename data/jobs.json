@@ -1,427 +1,4257 @@
 [
   {
     "id": "jb_0001",
-    "title": "Frontend Developer",
-    "company": "Acme Labs",
-    "location": "Accra, GH",
+    "title": "Product Manager",
+    "company": "MediaTech",
+    "location": "Algiers, DZ",
     "type": "Full-time",
-    "remote": true,
-    "salary": { "min": 6000, "max": 9000, "currency": "GHS", "period": "month" },
-    "experience": "Junior",
-    "postedAt": "2025-01-18",
-    "tags": ["React", "TypeScript", "Next.js"],
-    "description": "We're looking for a passionate Frontend Developer to join our growing team. You'll work on building beautiful, responsive user interfaces and contribute to our product development.",
-    "responsibilities": ["Build responsive UI components", "Write clean, maintainable code", "Collaborate with design and backend teams", "Write unit tests"],
-    "requirements": ["1+ year experience with React", "Proficiency in TypeScript", "Knowledge of modern CSS and responsive design", "Experience with Git"],
-    "benefits": ["Health insurance", "Remote work stipend", "Learning budget", "Flexible hours"],
+    "remote": false,
+    "salary": {
+      "min": 12591,
+      "max": 24401,
+      "currency": "EUR",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-08-14",
+    "tags": [
+      "Product Strategy",
+      "Agile",
+      "User Research",
+      "Analytics"
+    ],
+    "description": "We're looking for a talented Product Manager to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "5+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0002",
-    "title": "Senior Backend Engineer",
-    "company": "TechCorp Solutions",
-    "location": "Lagos, NG",
+    "title": "Backend Developer",
+    "company": "InnovateTech",
+    "location": "Dar es Salaam, TZ",
     "type": "Full-time",
     "remote": false,
-    "salary": { "min": 12000, "max": 18000, "currency": "NGN", "period": "month" },
-    "experience": "Senior",
-    "postedAt": "2025-01-17",
-    "tags": ["Node.js", "Python", "PostgreSQL", "AWS"],
-    "description": "Join our engineering team to build scalable backend services and APIs. You'll lead technical decisions and mentor junior developers.",
-    "responsibilities": ["Design and implement backend services", "Optimize database performance", "Lead code reviews", "Mentor junior developers"],
-    "requirements": ["5+ years backend development", "Expert in Node.js or Python", "Experience with cloud platforms", "Strong system design skills"],
-    "benefits": ["Competitive salary", "Health coverage", "Stock options", "Conference attendance"],
+    "salary": {
+      "min": 6686,
+      "max": 10818,
+      "currency": "NGN",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-07-30",
+    "tags": [
+      "Node.js",
+      "Python",
+      "Java",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "description": "We're looking for a talented Backend Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0003",
-    "title": "UI/UX Designer",
-    "company": "Creative Studio",
-    "location": "Nairobi, KE",
-    "type": "Contract",
-    "remote": true,
-    "salary": { "min": 8000, "max": 12000, "currency": "USD", "period": "month" },
-    "experience": "Mid",
-    "postedAt": "2025-01-16",
-    "tags": ["Figma", "Adobe Creative Suite", "User Research", "Prototyping"],
-    "description": "We need a talented designer to create intuitive user experiences and beautiful interfaces for our digital products.",
-    "responsibilities": ["Create user interface designs", "Conduct user research", "Build interactive prototypes", "Collaborate with development team"],
-    "requirements": ["3+ years UI/UX experience", "Proficiency in Figma", "Portfolio of web/mobile designs", "Understanding of user-centered design"],
-    "benefits": ["Flexible schedule", "Remote work", "Creative freedom", "Competitive rate"],
+    "title": "Full Stack Developer",
+    "company": "ManufacturingTech",
+    "location": "Monrovia, LR",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 12864,
+      "max": 19049,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-06-01",
+    "tags": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "We're looking for a talented Full Stack Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0004",
-    "title": "DevOps Engineer",
-    "company": "CloudTech Inc",
-    "location": "Cairo, EG",
+    "title": "Cybersecurity Analyst",
+    "company": "MediaTech",
+    "location": "Johannesburg, ZA",
     "type": "Full-time",
     "remote": true,
-    "salary": { "min": 7000, "max": 11000, "currency": "USD", "period": "month" },
+    "salary": {
+      "min": 6502,
+      "max": 10861,
+      "currency": "EUR",
+      "period": "month"
+    },
     "experience": "Mid",
-    "postedAt": "2025-01-15",
-    "tags": ["Docker", "Kubernetes", "AWS", "CI/CD"],
-    "description": "Help us build and maintain robust infrastructure and deployment pipelines. You'll work with cutting-edge cloud technologies.",
-    "responsibilities": ["Manage cloud infrastructure", "Automate deployment processes", "Monitor system performance", "Implement security best practices"],
-    "requirements": ["3+ years DevOps experience", "Experience with AWS/Azure", "Knowledge of containerization", "Scripting skills (Python/Bash)"],
-    "benefits": ["Remote work", "Health insurance", "Learning opportunities", "Modern tech stack"],
+    "postedAt": "2025-04-02",
+    "tags": [
+      "Security",
+      "Network Analysis",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "description": "We're looking for a talented Cybersecurity Analyst to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "5+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0005",
-    "title": "Data Scientist",
-    "company": "Analytics Pro",
-    "location": "Johannesburg, ZA",
+    "title": "Frontend Developer",
+    "company": "Blockchain Labs",
+    "location": "Tunis, TN",
     "type": "Full-time",
-    "remote": false,
-    "salary": { "min": 15000, "max": 22000, "currency": "ZAR", "period": "month" },
-    "experience": "Senior",
-    "postedAt": "2025-01-14",
-    "tags": ["Python", "Machine Learning", "SQL", "Statistics"],
-    "description": "Join our data team to extract insights from complex datasets and build predictive models that drive business decisions.",
-    "responsibilities": ["Analyze large datasets", "Build ML models", "Create data visualizations", "Present findings to stakeholders"],
-    "requirements": ["5+ years data science experience", "Strong Python skills", "ML/AI expertise", "Statistical analysis background"],
-    "benefits": ["Competitive salary", "Health benefits", "Data science conferences", "Research opportunities"],
+    "remote": true,
+    "salary": {
+      "min": 3226,
+      "max": 4745,
+      "currency": "GHS",
+      "period": "month"
+    },
+    "experience": "Junior",
+    "postedAt": "2025-04-14",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "We're looking for a talented Frontend Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "3+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0006",
-    "title": "Mobile App Developer",
-    "company": "AppWorks",
-    "location": "Casablanca, MA",
-    "type": "Part-time",
+    "title": "Cybersecurity Analyst",
+    "company": "SecurityNet",
+    "location": "Dar es Salaam, TZ",
+    "type": "Full-time",
     "remote": true,
-    "salary": { "min": 4000, "max": 6000, "currency": "USD", "period": "month" },
-    "experience": "Junior",
-    "postedAt": "2025-01-13",
-    "tags": ["React Native", "iOS", "Android", "JavaScript"],
-    "description": "Help us build cross-platform mobile applications. Perfect opportunity for developers looking to gain mobile experience.",
-    "responsibilities": ["Develop mobile app features", "Fix bugs and issues", "Collaborate with design team", "Test on multiple devices"],
-    "requirements": ["1+ year mobile development", "React Native experience", "Basic iOS/Android knowledge", "JavaScript proficiency"],
-    "benefits": ["Flexible hours", "Remote work", "Learning opportunities", "Part-time flexibility"],
+    "salary": {
+      "min": 6527,
+      "max": 15329,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-08-26",
+    "tags": [
+      "Security",
+      "Network Analysis",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "description": "We're looking for a talented Cybersecurity Analyst to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0007",
-    "title": "Product Manager",
-    "company": "InnovateTech",
-    "location": "Addis Ababa, ET",
+    "title": "Cybersecurity Analyst",
+    "company": "EnergyTech",
+    "location": "Accra, GH",
     "type": "Full-time",
-    "remote": false,
-    "salary": { "min": 9000, "max": 14000, "currency": "USD", "period": "month" },
+    "remote": true,
+    "salary": {
+      "min": 5703,
+      "max": 13658,
+      "currency": "GHS",
+      "period": "month"
+    },
     "experience": "Mid",
-    "postedAt": "2025-01-12",
-    "tags": ["Product Strategy", "Agile", "User Research", "Analytics"],
-    "description": "Lead product development from concept to launch. You'll work closely with engineering, design, and business teams.",
-    "responsibilities": ["Define product roadmap", "Gather user requirements", "Prioritize features", "Coordinate cross-functional teams"],
-    "requirements": ["3+ years product management", "Agile methodology experience", "Strong analytical skills", "Excellent communication"],
-    "benefits": ["Competitive salary", "Health insurance", "Professional development", "Impact on product direction"],
+    "postedAt": "2025-07-17",
+    "tags": [
+      "Security",
+      "Network Analysis",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "description": "We're looking for a talented Cybersecurity Analyst to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "3+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0008",
     "title": "Full Stack Developer",
-    "company": "WebSolutions",
-    "location": "Tunis, TN",
+    "company": "HealthTech Systems",
+    "location": "Lagos, NG",
     "type": "Full-time",
     "remote": true,
-    "salary": { "min": 6000, "max": 10000, "currency": "USD", "period": "month" },
-    "experience": "Mid",
-    "postedAt": "2025-01-11",
-    "tags": ["React", "Node.js", "MongoDB", "TypeScript"],
-    "description": "Build end-to-end web applications. You'll work on both frontend and backend, creating seamless user experiences.",
-    "responsibilities": ["Develop frontend components", "Build backend APIs", "Database design", "Deploy applications"],
-    "requirements": ["3+ years full-stack development", "React and Node.js experience", "Database knowledge", "Git workflow experience"],
-    "benefits": ["Remote work", "Health coverage", "Learning budget", "Modern tech stack"],
+    "salary": {
+      "min": 10808,
+      "max": 22060,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-05-23",
+    "tags": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "We're looking for a talented Full Stack Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0009",
-    "title": "QA Engineer",
-    "company": "QualityFirst",
-    "location": "Dar es Salaam, TZ",
-    "type": "Contract",
-    "remote": true,
-    "salary": { "min": 5000, "max": 8000, "currency": "USD", "period": "month" },
+    "title": "Frontend Developer",
+    "company": "TransportTech",
+    "location": "Lagos, NG",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 2618,
+      "max": 4487,
+      "currency": "USD",
+      "period": "month"
+    },
     "experience": "Junior",
-    "postedAt": "2025-01-10",
-    "tags": ["Testing", "Automation", "Selenium", "Jest"],
-    "description": "Ensure our products meet quality standards through comprehensive testing and automation.",
-    "responsibilities": ["Write test cases", "Automate test scripts", "Perform manual testing", "Report and track bugs"],
-    "requirements": ["1+ year QA experience", "Basic programming knowledge", "Understanding of testing principles", "Attention to detail"],
-    "benefits": ["Contract flexibility", "Remote work", "Testing tools experience", "Quality assurance skills"],
+    "postedAt": "2025-05-13",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "We're looking for a talented Frontend Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0010",
-    "title": "Cybersecurity Analyst",
-    "company": "SecureNet",
-    "location": "Algiers, DZ",
+    "title": "QA Engineer",
+    "company": "RetailTech Solutions",
+    "location": "Cairo, EG",
     "type": "Full-time",
     "remote": false,
-    "salary": { "min": 8000, "max": 12000, "currency": "USD", "period": "month" },
-    "experience": "Mid",
-    "postedAt": "2025-01-09",
-    "tags": ["Security", "Network Analysis", "Incident Response", "Penetration Testing"],
-    "description": "Protect our systems and data from cyber threats. You'll monitor security events and respond to incidents.",
-    "responsibilities": ["Monitor security systems", "Investigate security incidents", "Conduct vulnerability assessments", "Implement security measures"],
-    "requirements": ["3+ years cybersecurity experience", "Security certifications preferred", "Network security knowledge", "Incident response experience"],
-    "benefits": ["Competitive salary", "Security training", "Health benefits", "Professional development"],
+    "salary": {
+      "min": 3320,
+      "max": 4747,
+      "currency": "ZAR",
+      "period": "month"
+    },
+    "experience": "Junior",
+    "postedAt": "2025-07-15",
+    "tags": [
+      "Testing",
+      "Automation",
+      "Selenium",
+      "Jest",
+      "Cypress"
+    ],
+    "description": "We're looking for a talented QA Engineer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "5+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0011",
-    "title": "Content Writer",
-    "company": "ContentHub",
-    "location": "Kampala, UG",
-    "type": "Part-time",
+    "title": "UI/UX Designer",
+    "company": "Blockchain Labs",
+    "location": "Addis Ababa, ET",
+    "type": "Contract",
     "remote": true,
-    "salary": { "min": 2000, "max": 4000, "currency": "USD", "period": "month" },
-    "experience": "Junior",
-    "postedAt": "2025-01-08",
-    "tags": ["Content Writing", "SEO", "Blog Posts", "Copywriting"],
-    "description": "Create engaging content for our blog and marketing materials. Perfect for writers looking to build their portfolio.",
-    "responsibilities": ["Write blog articles", "Create marketing copy", "Optimize content for SEO", "Edit and proofread content"],
-    "requirements": ["Excellent writing skills", "Basic SEO knowledge", "Portfolio of writing samples", "Attention to detail"],
-    "benefits": ["Flexible schedule", "Remote work", "Portfolio building", "Writing experience"],
+    "salary": {
+      "min": 5696,
+      "max": 9800,
+      "currency": "ZAR",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-05-02",
+    "tags": [
+      "Figma",
+      "Adobe Creative Suite",
+      "User Research",
+      "Prototyping"
+    ],
+    "description": "We're looking for a talented UI/UX Designer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0012",
-    "title": "Sales Representative",
-    "company": "SalesForce",
-    "location": "Rabat, MA",
+    "title": "Full Stack Developer",
+    "company": "TechCorp Solutions",
+    "location": "Kampala, UG",
     "type": "Full-time",
-    "remote": false,
-    "salary": { "min": 4000, "max": 8000, "currency": "USD", "period": "month" },
-    "experience": "Junior",
-    "postedAt": "2025-01-07",
-    "tags": ["Sales", "Customer Relations", "CRM", "Communication"],
-    "description": "Drive revenue growth through effective sales strategies and building strong customer relationships.",
-    "responsibilities": ["Generate new leads", "Manage sales pipeline", "Close deals", "Maintain customer relationships"],
-    "requirements": ["1+ year sales experience", "Excellent communication skills", "CRM experience preferred", "Results-driven attitude"],
-    "benefits": ["Commission structure", "Health insurance", "Sales training", "Career growth opportunities"],
+    "remote": true,
+    "salary": {
+      "min": 10969,
+      "max": 18019,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-04-02",
+    "tags": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "We're looking for a talented Full Stack Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0013",
-    "title": "Marketing Specialist",
-    "company": "MarketPro",
-    "location": "Lusaka, ZM",
+    "title": "Cybersecurity Analyst",
+    "company": "DataFlow Systems",
+    "location": "Addis Ababa, ET",
     "type": "Full-time",
-    "remote": true,
-    "salary": { "min": 5000, "max": 8000, "currency": "USD", "period": "month" },
+    "remote": false,
+    "salary": {
+      "min": 5991,
+      "max": 15243,
+      "currency": "GBP",
+      "period": "month"
+    },
     "experience": "Mid",
-    "postedAt": "2025-01-06",
-    "tags": ["Digital Marketing", "Social Media", "Email Marketing", "Analytics"],
-    "description": "Develop and execute marketing campaigns across multiple channels to drive brand awareness and customer acquisition.",
-    "responsibilities": ["Create marketing campaigns", "Manage social media presence", "Analyze campaign performance", "Optimize marketing strategies"],
-    "requirements": ["3+ years marketing experience", "Digital marketing expertise", "Analytics skills", "Creative thinking"],
-    "benefits": ["Remote work", "Health benefits", "Marketing tools access", "Creative freedom"],
+    "postedAt": "2025-04-11",
+    "tags": [
+      "Security",
+      "Network Analysis",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "description": "We're looking for a talented Cybersecurity Analyst to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0014",
-    "title": "Customer Support Specialist",
-    "company": "SupportHero",
-    "location": "Harare, ZW",
-    "type": "Full-time",
+    "title": "UI/UX Designer",
+    "company": "Blockchain Labs",
+    "location": "Rabat, MA",
+    "type": "Contract",
     "remote": true,
-    "salary": { "min": 3000, "max": 5000, "currency": "USD", "period": "month" },
-    "experience": "Junior",
-    "postedAt": "2025-01-05",
-    "tags": ["Customer Service", "Problem Solving", "Communication", "CRM"],
-    "description": "Provide exceptional customer support and resolve issues to ensure customer satisfaction.",
-    "responsibilities": ["Respond to customer inquiries", "Resolve technical issues", "Escalate complex problems", "Maintain customer records"],
-    "requirements": ["Excellent communication skills", "Problem-solving ability", "Customer service experience", "Technical aptitude"],
-    "benefits": ["Remote work", "Health insurance", "Customer service training", "Career development"],
+    "salary": {
+      "min": 4898,
+      "max": 9967,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-07-08",
+    "tags": [
+      "Figma",
+      "Adobe Creative Suite",
+      "User Research",
+      "Prototyping"
+    ],
+    "description": "We're looking for a talented UI/UX Designer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0015",
-    "title": "Business Analyst",
-    "company": "BusinessInsights",
-    "location": "Dakar, SN",
+    "title": "QA Engineer",
+    "company": "RetailTech Solutions",
+    "location": "Cairo, EG",
     "type": "Full-time",
-    "remote": false,
-    "salary": { "min": 7000, "max": 11000, "currency": "USD", "period": "month" },
-    "experience": "Mid",
-    "postedAt": "2025-01-04",
-    "tags": ["Business Analysis", "Requirements Gathering", "Process Improvement", "Data Analysis"],
-    "description": "Analyze business processes and requirements to drive improvements and support strategic decision-making.",
-    "responsibilities": ["Gather business requirements", "Analyze business processes", "Create process documentation", "Support project implementation"],
-    "requirements": ["3+ years business analysis", "Requirements gathering experience", "Process modeling skills", "Strong analytical thinking"],
-    "benefits": ["Competitive salary", "Health benefits", "Professional development", "Business impact"],
+    "remote": true,
+    "salary": {
+      "min": 2588,
+      "max": 5382,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Junior",
+    "postedAt": "2025-07-11",
+    "tags": [
+      "Testing",
+      "Automation",
+      "Selenium",
+      "Jest",
+      "Cypress"
+    ],
+    "description": "We're looking for a talented QA Engineer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0016",
-    "title": "Graphic Designer",
-    "company": "DesignStudio",
-    "location": "Bamako, ML",
+    "title": "UI/UX Designer",
+    "company": "RetailTech Solutions",
+    "location": "Dar es Salaam, TZ",
     "type": "Contract",
     "remote": true,
-    "salary": { "min": 4000, "max": 7000, "currency": "USD", "period": "month" },
+    "salary": {
+      "min": 5387,
+      "max": 9817,
+      "currency": "EUR",
+      "period": "month"
+    },
     "experience": "Mid",
-    "postedAt": "2025-01-03",
-    "tags": ["Adobe Creative Suite", "Logo Design", "Brand Identity", "Visual Design"],
-    "description": "Create stunning visual designs for our brand and marketing materials. Bring creativity and innovation to our design projects.",
-    "responsibilities": ["Design logos and brand assets", "Create marketing materials", "Develop visual concepts", "Collaborate with marketing team"],
-    "requirements": ["3+ years graphic design", "Adobe Creative Suite proficiency", "Strong portfolio", "Creative thinking"],
-    "benefits": ["Contract flexibility", "Remote work", "Creative freedom", "Portfolio building"],
+    "postedAt": "2025-04-20",
+    "tags": [
+      "Figma",
+      "Adobe Creative Suite",
+      "User Research",
+      "Prototyping"
+    ],
+    "description": "We're looking for a talented UI/UX Designer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0017",
-    "title": "Project Manager",
-    "company": "ProjectPro",
-    "location": "Ouagadougou, BF",
+    "title": "Backend Developer",
+    "company": "FinTech Pro",
+    "location": "Tunis, TN",
     "type": "Full-time",
     "remote": true,
-    "salary": { "min": 8000, "max": 13000, "currency": "USD", "period": "month" },
-    "experience": "Senior",
-    "postedAt": "2025-01-02",
-    "tags": ["Project Management", "Agile", "Team Leadership", "Risk Management"],
-    "description": "Lead complex projects from initiation to completion, ensuring delivery on time and within budget.",
-    "responsibilities": ["Plan and execute projects", "Lead project teams", "Manage project risks", "Report project status"],
-    "requirements": ["5+ years project management", "PMP certification preferred", "Agile methodology experience", "Strong leadership skills"],
-    "benefits": ["Competitive salary", "Health insurance", "Professional development", "Leadership opportunities"],
+    "salary": {
+      "min": 5020,
+      "max": 11621,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-06-25",
+    "tags": [
+      "Node.js",
+      "Python",
+      "Java",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "description": "We're looking for a talented Backend Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0018",
-    "title": "HR Specialist",
-    "company": "PeopleFirst",
-    "location": "Conakry, GN",
+    "title": "Backend Developer",
+    "company": "RetailTech Solutions",
+    "location": "Monrovia, LR",
     "type": "Full-time",
-    "remote": false,
-    "salary": { "min": 5000, "max": 8000, "currency": "USD", "period": "month" },
+    "remote": true,
+    "salary": {
+      "min": 5155,
+      "max": 11447,
+      "currency": "GHS",
+      "period": "month"
+    },
     "experience": "Mid",
-    "postedAt": "2025-01-01",
-    "tags": ["Human Resources", "Recruitment", "Employee Relations", "HR Policies"],
-    "description": "Support our human resources operations and help create a positive workplace culture.",
-    "responsibilities": ["Manage recruitment process", "Handle employee relations", "Develop HR policies", "Support performance management"],
-    "requirements": ["3+ years HR experience", "Recruitment expertise", "Employee relations knowledge", "Strong interpersonal skills"],
-    "benefits": ["Competitive salary", "Health benefits", "HR training", "People-focused role"],
+    "postedAt": "2025-05-19",
+    "tags": [
+      "Node.js",
+      "Python",
+      "Java",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "description": "We're looking for a talented Backend Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "3+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0019",
-    "title": "Legal Counsel",
-    "company": "LegalCorp",
-    "location": "Freetown, SL",
+    "title": "Frontend Developer",
+    "company": "CloudTech Inc",
+    "location": "Ouagadougou, BF",
     "type": "Full-time",
-    "remote": false,
-    "salary": { "min": 10000, "max": 15000, "currency": "USD", "period": "month" },
-    "experience": "Senior",
-    "postedAt": "2024-12-31",
-    "tags": ["Corporate Law", "Contract Review", "Legal Compliance", "Risk Assessment"],
-    "description": "Provide legal guidance and support to ensure compliance and protect company interests.",
-    "responsibilities": ["Review contracts and agreements", "Provide legal advice", "Ensure compliance", "Manage legal risks"],
-    "requirements": ["Law degree and license", "5+ years corporate law", "Contract review experience", "Strong analytical skills"],
-    "benefits": ["Competitive salary", "Health benefits", "Professional development", "Legal impact"],
+    "remote": true,
+    "salary": {
+      "min": 3127,
+      "max": 5504,
+      "currency": "GHS",
+      "period": "month"
+    },
+    "experience": "Junior",
+    "postedAt": "2025-08-06",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "We're looking for a talented Frontend Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0020",
-    "title": "Financial Analyst",
-    "company": "FinancePro",
-    "location": "Monrovia, LR",
+    "title": "Full Stack Developer",
+    "company": "GreenTech Solutions",
+    "location": "Kampala, UG",
     "type": "Full-time",
     "remote": true,
-    "salary": { "min": 6000, "max": 10000, "currency": "USD", "period": "month" },
-    "experience": "Mid",
-    "postedAt": "2024-12-30",
-    "tags": ["Financial Analysis", "Excel", "Financial Modeling", "Reporting"],
-    "description": "Analyze financial data and create reports to support business decision-making and strategic planning.",
-    "responsibilities": ["Analyze financial statements", "Create financial models", "Prepare financial reports", "Support budgeting process"],
-    "requirements": ["3+ years financial analysis", "Excel proficiency", "Financial modeling skills", "Accounting knowledge"],
-    "benefits": ["Remote work", "Health benefits", "Financial training", "Analytical development"],
+    "salary": {
+      "min": 13700,
+      "max": 20805,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-04-04",
+    "tags": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "We're looking for a talented Full Stack Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0021",
-    "title": "Network Engineer",
-    "company": "NetTech",
-    "location": "Banjul, GM",
+    "title": "Backend Developer",
+    "company": "InnovateTech",
+    "location": "Nairobi, KE",
     "type": "Full-time",
     "remote": false,
-    "salary": { "min": 7000, "max": 11000, "currency": "USD", "period": "month" },
+    "salary": {
+      "min": 6080,
+      "max": 11681,
+      "currency": "GHS",
+      "period": "month"
+    },
     "experience": "Mid",
-    "postedAt": "2024-12-29",
-    "tags": ["Networking", "Cisco", "Network Security", "Infrastructure"],
-    "description": "Design, implement, and maintain network infrastructure to ensure reliable connectivity and security.",
-    "responsibilities": ["Design network architecture", "Configure network devices", "Monitor network performance", "Troubleshoot issues"],
-    "requirements": ["3+ years networking experience", "Cisco certification preferred", "Network security knowledge", "Troubleshooting skills"],
-    "benefits": ["Competitive salary", "Health benefits", "Certification support", "Technical development"],
+    "postedAt": "2025-04-08",
+    "tags": [
+      "Node.js",
+      "Python",
+      "Java",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "description": "We're looking for a talented Backend Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0022",
-    "title": "Research Analyst",
-    "company": "ResearchHub",
-    "location": "Bissau, GW",
+    "title": "UI/UX Designer",
+    "company": "EduTech Platform",
+    "location": "Algiers, DZ",
     "type": "Contract",
     "remote": true,
-    "salary": { "min": 4000, "max": 7000, "currency": "USD", "period": "month" },
-    "experience": "Junior",
-    "postedAt": "2024-12-28",
-    "tags": ["Research", "Data Analysis", "Report Writing", "Market Research"],
-    "description": "Conduct research and analysis to provide insights for business strategy and decision-making.",
-    "responsibilities": ["Conduct research studies", "Analyze data", "Write research reports", "Present findings"],
-    "requirements": ["1+ year research experience", "Data analysis skills", "Report writing ability", "Research methodology knowledge"],
-    "benefits": ["Contract flexibility", "Remote work", "Research experience", "Analytical development"],
+    "salary": {
+      "min": 4707,
+      "max": 7467,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-04-11",
+    "tags": [
+      "Figma",
+      "Adobe Creative Suite",
+      "User Research",
+      "Prototyping"
+    ],
+    "description": "We're looking for a talented UI/UX Designer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0023",
-    "title": "Translation Specialist",
-    "company": "GlobalLingo",
-    "location": "Dakar, SN",
-    "type": "Part-time",
+    "title": "Product Manager",
+    "company": "GreenTech Solutions",
+    "location": "Accra, GH",
+    "type": "Full-time",
     "remote": true,
-    "salary": { "min": 3000, "max": 5000, "currency": "USD", "period": "month" },
-    "experience": "Mid",
-    "postedAt": "2024-12-27",
-    "tags": ["Translation", "French", "English", "Localization"],
-    "description": "Provide accurate translations and localization services to help our content reach global audiences.",
-    "responsibilities": ["Translate documents", "Localize content", "Review translations", "Maintain translation quality"],
-    "requirements": ["3+ years translation experience", "Native French speaker", "Fluent English", "Translation certification preferred"],
-    "benefits": ["Flexible schedule", "Remote work", "Language development", "Cultural exposure"],
+    "salary": {
+      "min": 14253,
+      "max": 26337,
+      "currency": "EUR",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-07-08",
+    "tags": [
+      "Product Strategy",
+      "Agile",
+      "User Research",
+      "Analytics"
+    ],
+    "description": "We're looking for a talented Product Manager to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "3+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0024",
-    "title": "Video Editor",
-    "company": "VideoPro",
-    "location": "Lagos, NG",
-    "type": "Contract",
+    "title": "Full Stack Developer",
+    "company": "CloudTech Inc",
+    "location": "Conakry, GN",
+    "type": "Full-time",
     "remote": true,
-    "salary": { "min": 5000, "max": 8000, "currency": "USD", "period": "month" },
-    "experience": "Mid",
-    "postedAt": "2024-12-26",
-    "tags": ["Video Editing", "Adobe Premiere", "After Effects", "Motion Graphics"],
-    "description": "Create compelling video content for marketing campaigns and social media platforms.",
-    "responsibilities": ["Edit video content", "Create motion graphics", "Color correction", "Audio editing"],
-    "requirements": ["3+ years video editing", "Adobe Creative Suite proficiency", "Motion graphics skills", "Creative portfolio"],
-    "benefits": ["Contract flexibility", "Remote work", "Creative freedom", "Portfolio building"],
+    "salary": {
+      "min": 12125,
+      "max": 20406,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-06-14",
+    "tags": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "We're looking for a talented Full Stack Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "5+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   },
   {
     "id": "jb_0025",
-    "title": "SEO Specialist",
-    "company": "SearchOptimize",
+    "title": "Full Stack Developer",
+    "company": "CloudTech Inc",
+    "location": "Johannesburg, ZA",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 10355,
+      "max": 26658,
+      "currency": "GHS",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-07-19",
+    "tags": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "We're looking for a talented Full Stack Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0026",
+    "title": "Mobile Developer",
+    "company": "EnergyTech",
+    "location": "Addis Ababa, ET",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 6211,
+      "max": 9238,
+      "currency": "NGN",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-04-18",
+    "tags": [
+      "React Native",
+      "iOS",
+      "Android",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "description": "We're looking for a talented Mobile Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0027",
+    "title": "UI/UX Designer",
+    "company": "FinTech Pro",
+    "location": "Nairobi, KE",
+    "type": "Contract",
+    "remote": true,
+    "salary": {
+      "min": 5681,
+      "max": 8514,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-06-12",
+    "tags": [
+      "Figma",
+      "Adobe Creative Suite",
+      "User Research",
+      "Prototyping"
+    ],
+    "description": "We're looking for a talented UI/UX Designer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "5+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0028",
+    "title": "QA Engineer",
+    "company": "FinTech Pro",
+    "location": "Accra, GH",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 2241,
+      "max": 4515,
+      "currency": "ZAR",
+      "period": "month"
+    },
+    "experience": "Junior",
+    "postedAt": "2025-07-02",
+    "tags": [
+      "Testing",
+      "Automation",
+      "Selenium",
+      "Jest",
+      "Cypress"
+    ],
+    "description": "We're looking for a talented QA Engineer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0029",
+    "title": "DevOps Engineer",
+    "company": "DataFlow Systems",
+    "location": "Tunis, TN",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 5746,
+      "max": 14119,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-08-15",
+    "tags": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "description": "We're looking for a talented DevOps Engineer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0030",
+    "title": "Cybersecurity Analyst",
+    "company": "Quantum Computing",
+    "location": "Freetown, SL",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 7773,
+      "max": 12481,
+      "currency": "EUR",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-06-23",
+    "tags": [
+      "Security",
+      "Network Analysis",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "description": "We're looking for a talented Cybersecurity Analyst to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0031",
+    "title": "UI/UX Designer",
+    "company": "WebSolutions",
+    "location": "Dakar, SN",
+    "type": "Contract",
+    "remote": true,
+    "salary": {
+      "min": 4069,
+      "max": 10405,
+      "currency": "GHS",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-06-20",
+    "tags": [
+      "Figma",
+      "Adobe Creative Suite",
+      "User Research",
+      "Prototyping"
+    ],
+    "description": "We're looking for a talented UI/UX Designer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0032",
+    "title": "Mobile Developer",
+    "company": "TransportTech",
+    "location": "Monrovia, LR",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 6371,
+      "max": 11764,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-03-06",
+    "tags": [
+      "React Native",
+      "iOS",
+      "Android",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "description": "We're looking for a talented Mobile Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0033",
+    "title": "Data Scientist",
+    "company": "Blockchain Labs",
+    "location": "Dakar, SN",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 15737,
+      "max": 26216,
+      "currency": "NGN",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-03-22",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "Statistics",
+      "Pandas"
+    ],
+    "description": "We're looking for a talented Data Scientist to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "5+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0034",
+    "title": "UI/UX Designer",
+    "company": "TransportTech",
+    "location": "Lusaka, ZM",
+    "type": "Contract",
+    "remote": true,
+    "salary": {
+      "min": 5252,
+      "max": 9336,
+      "currency": "ZAR",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-03-31",
+    "tags": [
+      "Figma",
+      "Adobe Creative Suite",
+      "User Research",
+      "Prototyping"
+    ],
+    "description": "We're looking for a talented UI/UX Designer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0035",
+    "title": "Data Scientist",
+    "company": "Quantum Computing",
+    "location": "Freetown, SL",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 16596,
+      "max": 22767,
+      "currency": "ZAR",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-03-25",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "Statistics",
+      "Pandas"
+    ],
+    "description": "We're looking for a talented Data Scientist to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0036",
+    "title": "DevOps Engineer",
+    "company": "RetailTech Solutions",
+    "location": "Cairo, EG",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 7356,
+      "max": 10601,
+      "currency": "NGN",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-07-08",
+    "tags": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "description": "We're looking for a talented DevOps Engineer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0037",
+    "title": "Product Manager",
+    "company": "EnergyTech",
+    "location": "Dar es Salaam, TZ",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 15898,
+      "max": 26468,
+      "currency": "EUR",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-03-07",
+    "tags": [
+      "Product Strategy",
+      "Agile",
+      "User Research",
+      "Analytics"
+    ],
+    "description": "We're looking for a talented Product Manager to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0038",
+    "title": "Product Manager",
+    "company": "InnovateTech",
+    "location": "Accra, GH",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 12386,
+      "max": 20950,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-06-28",
+    "tags": [
+      "Product Strategy",
+      "Agile",
+      "User Research",
+      "Analytics"
+    ],
+    "description": "We're looking for a talented Product Manager to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "3+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0039",
+    "title": "Cybersecurity Analyst",
+    "company": "Blockchain Labs",
+    "location": "Freetown, SL",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 8119,
+      "max": 13105,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-08-02",
+    "tags": [
+      "Security",
+      "Network Analysis",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "description": "We're looking for a talented Cybersecurity Analyst to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "3+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0040",
+    "title": "Full Stack Developer",
+    "company": "TechCorp Solutions",
+    "location": "Tunis, TN",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 9732,
+      "max": 25813,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-03-04",
+    "tags": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "We're looking for a talented Full Stack Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "5+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0041",
+    "title": "Mobile Developer",
+    "company": "AI Innovations",
+    "location": "Tunis, TN",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 7080,
+      "max": 12391,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-06-10",
+    "tags": [
+      "React Native",
+      "iOS",
+      "Android",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "description": "We're looking for a talented Mobile Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0042",
+    "title": "UI/UX Designer",
+    "company": "ManufacturingTech",
+    "location": "Algiers, DZ",
+    "type": "Contract",
+    "remote": true,
+    "salary": {
+      "min": 4122,
+      "max": 9914,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-03-04",
+    "tags": [
+      "Figma",
+      "Adobe Creative Suite",
+      "User Research",
+      "Prototyping"
+    ],
+    "description": "We're looking for a talented UI/UX Designer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0043",
+    "title": "Cybersecurity Analyst",
+    "company": "DataFlow Systems",
+    "location": "Addis Ababa, ET",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 6012,
+      "max": 14546,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-06-21",
+    "tags": [
+      "Security",
+      "Network Analysis",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "description": "We're looking for a talented Cybersecurity Analyst to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0044",
+    "title": "DevOps Engineer",
+    "company": "EduTech Platform",
+    "location": "Harare, ZW",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 7931,
+      "max": 12943,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-04-04",
+    "tags": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "description": "We're looking for a talented DevOps Engineer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0045",
+    "title": "Full Stack Developer",
+    "company": "ManufacturingTech",
+    "location": "Johannesburg, ZA",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 13945,
+      "max": 26683,
+      "currency": "GHS",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-03-12",
+    "tags": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "We're looking for a talented Full Stack Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "3+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0046",
+    "title": "Mobile Developer",
+    "company": "AI Innovations",
+    "location": "Harare, ZW",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 6522,
+      "max": 12818,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-03-18",
+    "tags": [
+      "React Native",
+      "iOS",
+      "Android",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "description": "We're looking for a talented Mobile Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "5+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0047",
+    "title": "Data Scientist",
+    "company": "Digital Dynamics",
+    "location": "Dar es Salaam, TZ",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 17707,
+      "max": 29857,
+      "currency": "EUR",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-07-28",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "Statistics",
+      "Pandas"
+    ],
+    "description": "We're looking for a talented Data Scientist to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0048",
+    "title": "Product Manager",
+    "company": "GreenTech Solutions",
+    "location": "Johannesburg, ZA",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 12308,
+      "max": 28630,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-07-19",
+    "tags": [
+      "Product Strategy",
+      "Agile",
+      "User Research",
+      "Analytics"
+    ],
+    "description": "We're looking for a talented Product Manager to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0049",
+    "title": "Frontend Developer",
+    "company": "EnergyTech",
+    "location": "Cairo, EG",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 2613,
+      "max": 3970,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Junior",
+    "postedAt": "2025-05-24",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "We're looking for a talented Frontend Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0050",
+    "title": "UI/UX Designer",
+    "company": "FinTech Pro",
+    "location": "Dakar, SN",
+    "type": "Contract",
+    "remote": false,
+    "salary": {
+      "min": 4448,
+      "max": 8574,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-05-23",
+    "tags": [
+      "Figma",
+      "Adobe Creative Suite",
+      "User Research",
+      "Prototyping"
+    ],
+    "description": "We're looking for a talented UI/UX Designer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0051",
+    "title": "Product Manager",
+    "company": "RetailTech Solutions",
+    "location": "Conakry, GN",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 10972,
+      "max": 19813,
+      "currency": "EUR",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-08-08",
+    "tags": [
+      "Product Strategy",
+      "Agile",
+      "User Research",
+      "Analytics"
+    ],
+    "description": "We're looking for a talented Product Manager to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0052",
+    "title": "UI/UX Designer",
+    "company": "HealthTech Systems",
+    "location": "Freetown, SL",
+    "type": "Contract",
+    "remote": true,
+    "salary": {
+      "min": 4307,
+      "max": 10268,
+      "currency": "GHS",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-05-15",
+    "tags": [
+      "Figma",
+      "Adobe Creative Suite",
+      "User Research",
+      "Prototyping"
+    ],
+    "description": "We're looking for a talented UI/UX Designer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "5+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0053",
+    "title": "Cybersecurity Analyst",
+    "company": "MobileFirst",
+    "location": "Kampala, UG",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 8233,
+      "max": 10928,
+      "currency": "EUR",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-03-13",
+    "tags": [
+      "Security",
+      "Network Analysis",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "description": "We're looking for a talented Cybersecurity Analyst to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "3+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0054",
+    "title": "Product Manager",
+    "company": "RetailTech Solutions",
+    "location": "Ouagadougou, BF",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 10959,
+      "max": 21199,
+      "currency": "NGN",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-06-23",
+    "tags": [
+      "Product Strategy",
+      "Agile",
+      "User Research",
+      "Analytics"
+    ],
+    "description": "We're looking for a talented Product Manager to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "3+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0055",
+    "title": "Product Manager",
+    "company": "SecurityNet",
+    "location": "Dar es Salaam, TZ",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 11538,
+      "max": 23786,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-07-22",
+    "tags": [
+      "Product Strategy",
+      "Agile",
+      "User Research",
+      "Analytics"
+    ],
+    "description": "We're looking for a talented Product Manager to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0056",
+    "title": "Product Manager",
+    "company": "Digital Dynamics",
+    "location": "Ouagadougou, BF",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 15932,
+      "max": 26368,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-06-16",
+    "tags": [
+      "Product Strategy",
+      "Agile",
+      "User Research",
+      "Analytics"
+    ],
+    "description": "We're looking for a talented Product Manager to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0057",
+    "title": "Cybersecurity Analyst",
+    "company": "WebSolutions",
+    "location": "Rabat, MA",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 6935,
+      "max": 14720,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-04-22",
+    "tags": [
+      "Security",
+      "Network Analysis",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "description": "We're looking for a talented Cybersecurity Analyst to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0058",
+    "title": "QA Engineer",
+    "company": "EnergyTech",
+    "location": "Accra, GH",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 2622,
+      "max": 5071,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Junior",
+    "postedAt": "2025-05-15",
+    "tags": [
+      "Testing",
+      "Automation",
+      "Selenium",
+      "Jest",
+      "Cypress"
+    ],
+    "description": "We're looking for a talented QA Engineer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "3+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0059",
+    "title": "Mobile Developer",
+    "company": "TransportTech",
+    "location": "Rabat, MA",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 6033,
+      "max": 12715,
+      "currency": "EUR",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-05-28",
+    "tags": [
+      "React Native",
+      "iOS",
+      "Android",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "description": "We're looking for a talented Mobile Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "5+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0060",
+    "title": "Cybersecurity Analyst",
+    "company": "TransportTech",
+    "location": "Cairo, EG",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 6410,
+      "max": 11897,
+      "currency": "GHS",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-08-28",
+    "tags": [
+      "Security",
+      "Network Analysis",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "description": "We're looking for a talented Cybersecurity Analyst to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0061",
+    "title": "Mobile Developer",
+    "company": "EnergyTech",
     "location": "Nairobi, KE",
     "type": "Full-time",
     "remote": true,
-    "salary": { "min": 6000, "max": 9000, "currency": "USD", "period": "month" },
+    "salary": {
+      "min": 6991,
+      "max": 13112,
+      "currency": "ZAR",
+      "period": "month"
+    },
     "experience": "Mid",
-    "postedAt": "2024-12-25",
-    "tags": ["SEO", "Google Analytics", "Keyword Research", "Content Optimization"],
-    "description": "Optimize our online presence to improve search engine rankings and drive organic traffic.",
-    "responsibilities": ["Conduct keyword research", "Optimize website content", "Monitor SEO performance", "Implement SEO strategies"],
-    "requirements": ["3+ years SEO experience", "Google Analytics proficiency", "Keyword research skills", "Content optimization knowledge"],
-    "benefits": ["Remote work", "Health benefits", "SEO tools access", "Digital marketing development"],
+    "postedAt": "2025-06-13",
+    "tags": [
+      "React Native",
+      "iOS",
+      "Android",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "description": "We're looking for a talented Mobile Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "3+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0062",
+    "title": "UI/UX Designer",
+    "company": "SecurityNet",
+    "location": "Kampala, UG",
+    "type": "Contract",
+    "remote": true,
+    "salary": {
+      "min": 4857,
+      "max": 8714,
+      "currency": "ZAR",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-06-22",
+    "tags": [
+      "Figma",
+      "Adobe Creative Suite",
+      "User Research",
+      "Prototyping"
+    ],
+    "description": "We're looking for a talented UI/UX Designer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0063",
+    "title": "Cybersecurity Analyst",
+    "company": "TransportTech",
+    "location": "Addis Ababa, ET",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 7209,
+      "max": 15258,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-07-01",
+    "tags": [
+      "Security",
+      "Network Analysis",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "description": "We're looking for a talented Cybersecurity Analyst to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0064",
+    "title": "Frontend Developer",
+    "company": "TransportTech",
+    "location": "Conakry, GN",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 2979,
+      "max": 4935,
+      "currency": "GHS",
+      "period": "month"
+    },
+    "experience": "Junior",
+    "postedAt": "2025-06-12",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "We're looking for a talented Frontend Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0065",
+    "title": "Data Scientist",
+    "company": "EnergyTech",
+    "location": "Freetown, SL",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 15251,
+      "max": 31869,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-04-09",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "Statistics",
+      "Pandas"
+    ],
+    "description": "We're looking for a talented Data Scientist to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0066",
+    "title": "Data Scientist",
+    "company": "MobileFirst",
+    "location": "Addis Ababa, ET",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 14510,
+      "max": 30300,
+      "currency": "ZAR",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-07-23",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "Statistics",
+      "Pandas"
+    ],
+    "description": "We're looking for a talented Data Scientist to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0067",
+    "title": "Cybersecurity Analyst",
+    "company": "TechCorp Solutions",
+    "location": "Kampala, UG",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 6511,
+      "max": 11440,
+      "currency": "GHS",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-06-05",
+    "tags": [
+      "Security",
+      "Network Analysis",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "description": "We're looking for a talented Cybersecurity Analyst to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "3+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0068",
+    "title": "Mobile Developer",
+    "company": "WebSolutions",
+    "location": "Dakar, SN",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 6722,
+      "max": 11945,
+      "currency": "GHS",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-07-23",
+    "tags": [
+      "React Native",
+      "iOS",
+      "Android",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "description": "We're looking for a talented Mobile Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0069",
+    "title": "DevOps Engineer",
+    "company": "Quantum Computing",
+    "location": "Ouagadougou, BF",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 6869,
+      "max": 12118,
+      "currency": "GHS",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-05-23",
+    "tags": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "description": "We're looking for a talented DevOps Engineer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0070",
+    "title": "QA Engineer",
+    "company": "Digital Dynamics",
+    "location": "Tunis, TN",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 2854,
+      "max": 5794,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Junior",
+    "postedAt": "2025-04-15",
+    "tags": [
+      "Testing",
+      "Automation",
+      "Selenium",
+      "Jest",
+      "Cypress"
+    ],
+    "description": "We're looking for a talented QA Engineer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "3+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0071",
+    "title": "Frontend Developer",
+    "company": "Blockchain Labs",
+    "location": "Freetown, SL",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 2402,
+      "max": 3967,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Junior",
+    "postedAt": "2025-07-28",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "We're looking for a talented Frontend Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "5+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0072",
+    "title": "Product Manager",
+    "company": "RetailTech Solutions",
+    "location": "Casablanca, MA",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 14847,
+      "max": 19308,
+      "currency": "GHS",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-04-27",
+    "tags": [
+      "Product Strategy",
+      "Agile",
+      "User Research",
+      "Analytics"
+    ],
+    "description": "We're looking for a talented Product Manager to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0073",
+    "title": "Mobile Developer",
+    "company": "HealthTech Systems",
+    "location": "Dar es Salaam, TZ",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 7084,
+      "max": 10367,
+      "currency": "NGN",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-04-03",
+    "tags": [
+      "React Native",
+      "iOS",
+      "Android",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "description": "We're looking for a talented Mobile Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "5+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0074",
+    "title": "Product Manager",
+    "company": "InnovateTech",
+    "location": "Algiers, DZ",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 15973,
+      "max": 27090,
+      "currency": "NGN",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-08-07",
+    "tags": [
+      "Product Strategy",
+      "Agile",
+      "User Research",
+      "Analytics"
+    ],
+    "description": "We're looking for a talented Product Manager to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0075",
+    "title": "QA Engineer",
+    "company": "MobileFirst",
+    "location": "Cairo, EG",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 2551,
+      "max": 4764,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Junior",
+    "postedAt": "2025-04-17",
+    "tags": [
+      "Testing",
+      "Automation",
+      "Selenium",
+      "Jest",
+      "Cypress"
+    ],
+    "description": "We're looking for a talented QA Engineer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0076",
+    "title": "UI/UX Designer",
+    "company": "HealthTech Systems",
+    "location": "Kampala, UG",
+    "type": "Contract",
+    "remote": true,
+    "salary": {
+      "min": 4423,
+      "max": 10238,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-04-16",
+    "tags": [
+      "Figma",
+      "Adobe Creative Suite",
+      "User Research",
+      "Prototyping"
+    ],
+    "description": "We're looking for a talented UI/UX Designer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0077",
+    "title": "Cybersecurity Analyst",
+    "company": "InnovateTech",
+    "location": "Addis Ababa, ET",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 7335,
+      "max": 15053,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-08-15",
+    "tags": [
+      "Security",
+      "Network Analysis",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "description": "We're looking for a talented Cybersecurity Analyst to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "5+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0078",
+    "title": "Data Scientist",
+    "company": "SecurityNet",
+    "location": "Nairobi, KE",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 12592,
+      "max": 24010,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-04-12",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "Statistics",
+      "Pandas"
+    ],
+    "description": "We're looking for a talented Data Scientist to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0079",
+    "title": "Data Scientist",
+    "company": "DataFlow Systems",
+    "location": "Casablanca, MA",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 12263,
+      "max": 28262,
+      "currency": "EUR",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-06-12",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "Statistics",
+      "Pandas"
+    ],
+    "description": "We're looking for a talented Data Scientist to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0080",
+    "title": "Product Manager",
+    "company": "Digital Dynamics",
+    "location": "Kampala, UG",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 11043,
+      "max": 28270,
+      "currency": "EUR",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-04-11",
+    "tags": [
+      "Product Strategy",
+      "Agile",
+      "User Research",
+      "Analytics"
+    ],
+    "description": "We're looking for a talented Product Manager to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "3+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0081",
+    "title": "Frontend Developer",
+    "company": "InnovateTech",
+    "location": "Monrovia, LR",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 2741,
+      "max": 4461,
+      "currency": "NGN",
+      "period": "month"
+    },
+    "experience": "Junior",
+    "postedAt": "2025-03-10",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "We're looking for a talented Frontend Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "5+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0082",
+    "title": "Cybersecurity Analyst",
+    "company": "CloudTech Inc",
+    "location": "Dakar, SN",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 6031,
+      "max": 14799,
+      "currency": "GHS",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-03-27",
+    "tags": [
+      "Security",
+      "Network Analysis",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "description": "We're looking for a talented Cybersecurity Analyst to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "5+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0083",
+    "title": "DevOps Engineer",
+    "company": "MobileFirst",
+    "location": "Harare, ZW",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 7197,
+      "max": 12289,
+      "currency": "ZAR",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-06-01",
+    "tags": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "description": "We're looking for a talented DevOps Engineer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0084",
+    "title": "DevOps Engineer",
+    "company": "FinTech Pro",
+    "location": "Bamako, ML",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 6076,
+      "max": 13135,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-05-18",
+    "tags": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "description": "We're looking for a talented DevOps Engineer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0085",
+    "title": "Data Scientist",
+    "company": "Quantum Computing",
+    "location": "Ouagadougou, BF",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 17034,
+      "max": 30138,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-07-31",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "Statistics",
+      "Pandas"
+    ],
+    "description": "We're looking for a talented Data Scientist to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0086",
+    "title": "Cybersecurity Analyst",
+    "company": "HealthTech Systems",
+    "location": "Dakar, SN",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 7716,
+      "max": 10890,
+      "currency": "ZAR",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-07-18",
+    "tags": [
+      "Security",
+      "Network Analysis",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "description": "We're looking for a talented Cybersecurity Analyst to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0087",
+    "title": "Data Scientist",
+    "company": "AI Innovations",
+    "location": "Lagos, NG",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 16996,
+      "max": 29801,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-04-15",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "Statistics",
+      "Pandas"
+    ],
+    "description": "We're looking for a talented Data Scientist to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0088",
+    "title": "UI/UX Designer",
+    "company": "HealthTech Systems",
+    "location": "Conakry, GN",
+    "type": "Contract",
+    "remote": true,
+    "salary": {
+      "min": 5966,
+      "max": 8876,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-08-24",
+    "tags": [
+      "Figma",
+      "Adobe Creative Suite",
+      "User Research",
+      "Prototyping"
+    ],
+    "description": "We're looking for a talented UI/UX Designer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "5+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0089",
+    "title": "Full Stack Developer",
+    "company": "WebSolutions",
+    "location": "Kampala, UG",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 10980,
+      "max": 20220,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-04-03",
+    "tags": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "We're looking for a talented Full Stack Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0090",
+    "title": "Backend Developer",
+    "company": "FinTech Pro",
+    "location": "Kampala, UG",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 5382,
+      "max": 10179,
+      "currency": "EUR",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-08-26",
+    "tags": [
+      "Node.js",
+      "Python",
+      "Java",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "description": "We're looking for a talented Backend Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "5+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0091",
+    "title": "QA Engineer",
+    "company": "Quantum Computing",
+    "location": "Harare, ZW",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 2733,
+      "max": 4089,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Junior",
+    "postedAt": "2025-08-03",
+    "tags": [
+      "Testing",
+      "Automation",
+      "Selenium",
+      "Jest",
+      "Cypress"
+    ],
+    "description": "We're looking for a talented QA Engineer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0092",
+    "title": "Cybersecurity Analyst",
+    "company": "TechCorp Solutions",
+    "location": "Johannesburg, ZA",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 8356,
+      "max": 12028,
+      "currency": "GHS",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-06-10",
+    "tags": [
+      "Security",
+      "Network Analysis",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "description": "We're looking for a talented Cybersecurity Analyst to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "3+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0093",
+    "title": "UI/UX Designer",
+    "company": "TransportTech",
+    "location": "Algiers, DZ",
+    "type": "Contract",
+    "remote": true,
+    "salary": {
+      "min": 5249,
+      "max": 9545,
+      "currency": "GBP",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-06-24",
+    "tags": [
+      "Figma",
+      "Adobe Creative Suite",
+      "User Research",
+      "Prototyping"
+    ],
+    "description": "We're looking for a talented UI/UX Designer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0094",
+    "title": "Cybersecurity Analyst",
+    "company": "CloudTech Inc",
+    "location": "Tunis, TN",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 7821,
+      "max": 13820,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-03-14",
+    "tags": [
+      "Security",
+      "Network Analysis",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "description": "We're looking for a talented Cybersecurity Analyst to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0095",
+    "title": "Backend Developer",
+    "company": "MediaTech",
+    "location": "Johannesburg, ZA",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 5557,
+      "max": 10601,
+      "currency": "EUR",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-06-22",
+    "tags": [
+      "Node.js",
+      "Python",
+      "Java",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "description": "We're looking for a talented Backend Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "1+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0096",
+    "title": "DevOps Engineer",
+    "company": "EduTech Platform",
+    "location": "Kampala, UG",
+    "type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 6845,
+      "max": 13544,
+      "currency": "GHS",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-04-28",
+    "tags": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Linux"
+    ],
+    "description": "We're looking for a talented DevOps Engineer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0097",
+    "title": "Mobile Developer",
+    "company": "TransportTech",
+    "location": "Dakar, SN",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 5267,
+      "max": 11547,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Mid",
+    "postedAt": "2025-06-07",
+    "tags": [
+      "React Native",
+      "iOS",
+      "Android",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "description": "We're looking for a talented Mobile Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "3+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0098",
+    "title": "Product Manager",
+    "company": "DataFlow Systems",
+    "location": "Nairobi, KE",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 14797,
+      "max": 28634,
+      "currency": "EUR",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-08-24",
+    "tags": [
+      "Product Strategy",
+      "Agile",
+      "User Research",
+      "Analytics"
+    ],
+    "description": "We're looking for a talented Product Manager to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "2+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0099",
+    "title": "Frontend Developer",
+    "company": "WebSolutions",
+    "location": "Dar es Salaam, TZ",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 2941,
+      "max": 5544,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": "Junior",
+    "postedAt": "2025-03-06",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "We're looking for a talented Frontend Developer to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "4+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
+    "companyLogo": "/logo.svg"
+  },
+  {
+    "id": "jb_0100",
+    "title": "Product Manager",
+    "company": "EnergyTech",
+    "location": "Nairobi, KE",
+    "type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 12671,
+      "max": 23702,
+      "currency": "NGN",
+      "period": "month"
+    },
+    "experience": "Senior",
+    "postedAt": "2025-03-12",
+    "tags": [
+      "Product Strategy",
+      "Agile",
+      "User Research",
+      "Analytics"
+    ],
+    "description": "We're looking for a talented Product Manager to join our growing team. You'll work on exciting projects and contribute to our product development.",
+    "responsibilities": [
+      "Collaborate with cross-functional teams",
+      "Write clean, maintainable code",
+      "Participate in code reviews",
+      "Contribute to technical decisions"
+    ],
+    "requirements": [
+      "3+ years of experience",
+      "Strong problem-solving skills",
+      "Excellent communication abilities",
+      "Passion for technology and innovation"
+    ],
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Learning and development budget",
+      "Flexible working hours"
+    ],
     "companyLogo": "/logo.svg"
   }
 ]

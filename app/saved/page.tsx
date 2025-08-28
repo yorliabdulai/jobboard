@@ -7,7 +7,11 @@ import SearchBox from '@/components/SearchBox';
 import FilterBar from '@/components/FilterBar';
 import Pagination from '@/components/Pagination';
 import EmptyState from '@/components/EmptyState';
+import LoadingIndicator from '@/components/LoadingIndicator';
 import { Job, FilterOptions, applySearch, applyFilters, applySort, paginate } from '@/lib/filters';
+
+// Import jobs from external data file
+import jobsData from '@/data/jobs.json';
 
 export default function SavedJobsPage() {
   const router = useRouter();
@@ -20,127 +24,21 @@ export default function SavedJobsPage() {
   const [savedJobIds, setSavedJobIds] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
-  const jobsPerPage = 10;
+  const jobsPerPage = 12; // Increased from 10 for better UX
 
-  // Load saved jobs from localStorage and mock data
+  // Load saved jobs from localStorage and jobs data
   useEffect(() => {
     const savedIds = localStorage.getItem('savedJobs');
     if (savedIds) {
       const ids = JSON.parse(savedIds);
       setSavedJobIds(ids);
       
-      // Load the actual job data for saved jobs
-      // In a real app, this would be an API call
-      const loadSavedJobs = async () => {
-        try {
-          // Simulate API call delay
-          await new Promise(resolve => setTimeout(resolve, 500));
-          
-          // Get mock jobs data (in real app, fetch from API)
-          // This should match the data structure from the main page
-          const mockJobs: Job[] = [
-            {
-              "id": "jb_0001",
-              "title": "Frontend Developer",
-              "company": "Acme Labs",
-              "location": "Accra, GH",
-              "type": "Full-time",
-              "remote": true,
-              "salary": { "min": 6000, "max": 9000, "currency": "GHS", "period": "month" },
-              "experience": "Junior",
-              "postedAt": "2025-01-18",
-              "tags": ["React", "TypeScript", "Next.js"],
-              "description": "We're looking for a passionate Frontend Developer to join our growing team. You'll work on building beautiful, responsive user interfaces and contribute to our product development.",
-              "responsibilities": ["Build responsive UI components", "Write clean, maintainable code", "Collaborate with design and backend teams", "Write unit tests"],
-              "requirements": ["1+ year experience with React", "Proficiency in TypeScript", "Knowledge of modern CSS and responsive design", "Experience with Git"],
-              "benefits": ["Health insurance", "Remote work stipend", "Learning budget", "Flexible hours"],
-              "companyLogo": "/logo.svg"
-            },
-            {
-              "id": "jb_0002",
-              "title": "Senior Backend Engineer",
-              "company": "TechCorp Solutions",
-              "location": "Lagos, NG",
-              "type": "Full-time",
-              "remote": false,
-              "salary": { "min": 12000, "max": 18000, "currency": "NGN", "period": "month" },
-              "experience": "Senior",
-              "postedAt": "2025-01-17",
-              "tags": ["Node.js", "Python", "PostgreSQL", "AWS"],
-              "description": "Join our engineering team to build scalable backend services and APIs. You'll lead technical decisions and mentor junior developers.",
-              "responsibilities": ["Design and implement backend services", "Optimize database performance", "Lead code reviews", "Mentor junior developers"],
-              "requirements": ["5+ years backend development", "Expert in Node.js or Python", "Experience with cloud platforms", "Strong system design skills"],
-              "benefits": ["Competitive salary", "Health coverage", "Stock options", "Conference attendance"],
-              "companyLogo": "/logo.svg"
-            },
-            {
-              "id": "jb_0003",
-              "title": "UI/UX Designer",
-              "company": "Creative Studio",
-              "location": "Nairobi, KE",
-              "type": "Contract",
-              "remote": true,
-              "salary": { "min": 8000, "max": 12000, "currency": "USD", "period": "month" },
-              "experience": "Mid",
-              "postedAt": "2025-01-16",
-              "tags": ["Figma", "Adobe Creative Suite", "User Research", "Prototyping"],
-              "description": "We need a talented designer to create intuitive user experiences and beautiful interfaces for our digital products.",
-              "responsibilities": ["Create user interface designs", "Conduct user research", "Build interactive prototypes", "Collaborate with development team"],
-              "requirements": ["3+ years UI/UX experience", "Proficiency in Figma", "Portfolio of web/mobile designs", "Understanding of user-centered design"],
-              "benefits": ["Flexible schedule", "Remote work", "Creative freedom", "Competitive rate"],
-              "companyLogo": "/logo.svg"
-            },
-            {
-              "id": "jb_0004",
-              "title": "DevOps Engineer",
-              "company": "CloudTech Inc",
-              "location": "Cairo, EG",
-              "type": "Full-time",
-              "remote": true,
-              "salary": { "min": 7000, "max": 11000, "currency": "USD", "period": "month" },
-              "experience": "Mid",
-              "postedAt": "2025-01-15",
-              "tags": ["Docker", "Kubernetes", "AWS", "CI/CD"],
-              "description": "Help us build and maintain robust infrastructure and deployment pipelines. You'll work with cutting-edge cloud technologies.",
-              "responsibilities": ["Manage cloud infrastructure", "Automate deployment processes", "Monitor system performance", "Implement security best practices"],
-              "requirements": ["3+ years DevOps experience", "Experience with AWS/Azure", "Knowledge of containerization", "Scripting skills (Python/Bash)"],
-              "benefits": ["Remote work", "Health insurance", "Learning opportunities", "Modern tech stack"],
-              "companyLogo": "/logo.svg"
-            },
-            {
-              "id": "jb_0005",
-              "title": "Data Scientist",
-              "company": "Analytics Pro",
-              "location": "Johannesburg, ZA",
-              "type": "Full-time",
-              "remote": false,
-              "salary": { "min": 15000, "max": 22000, "currency": "ZAR", "period": "month" },
-              "experience": "Senior",
-              "postedAt": "2025-01-14",
-              "tags": ["Python", "Machine Learning", "SQL", "Statistics"],
-              "description": "Join our data team to extract insights from complex datasets and build predictive models that drive business decisions.",
-              "responsibilities": ["Analyze large datasets", "Build ML models", "Create data visualizations", "Present findings to stakeholders"],
-              "requirements": ["5+ years data science experience", "Strong Python skills", "ML/AI expertise", "Statistical analysis background"],
-              "benefits": ["Competitive salary", "Health benefits", "Data science conferences", "Research opportunities"],
-              "companyLogo": "/logo.svg"
-            }
-          ];
-          
-          // Filter to only include saved jobs
-          const saved = mockJobs.filter(job => ids.includes(job.id));
-          setSavedJobs(saved);
-          setFilteredJobs(saved);
-        } catch (error) {
-          console.error('Error loading saved jobs:', error);
-        } finally {
-          setIsLoading(false);
-        }
-      };
-      
-      loadSavedJobs();
-    } else {
-      setIsLoading(false);
+      // Filter to only include saved jobs from the full jobs data
+      const saved = jobsData.filter(job => ids.includes(job.id));
+      setSavedJobs(saved);
+      setFilteredJobs(saved);
     }
+    setIsLoading(false);
   }, []);
 
   // Apply search and filters
@@ -177,6 +75,8 @@ export default function SavedJobsPage() {
   // Handle page change
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
+    // Scroll to top when page changes
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   // Handle unsave job
@@ -219,11 +119,8 @@ export default function SavedJobsPage() {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-500 mx-auto mb-4"></div>
-          <p className="text-gray-600">Loading your saved jobs...</p>
-        </div>
+      <div className="min-h-screen bg-gray-50">
+        <LoadingIndicator size="large" text="Loading your saved jobs..." className="min-h-screen" />
       </div>
     );
   }
@@ -321,12 +218,14 @@ export default function SavedJobsPage() {
 
         {/* Pagination */}
         {totalPages > 1 && (
-          <Pagination
-            currentPage={currentPage}
-            totalPages={totalPages}
-            totalJobs={total}
-            jobsPerPage={jobsPerPage}
-          />
+          <div className="mt-8">
+            <Pagination
+              currentPage={currentPage}
+              totalPages={totalPages}
+              totalJobs={total}
+              jobsPerPage={jobsPerPage}
+            />
+          </div>
         )}
       </div>
     </div>
