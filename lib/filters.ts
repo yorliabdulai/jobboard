@@ -104,7 +104,14 @@ export function paginate(data: Job[], page: number, perPage: number): { jobs: Jo
 }
 
 export function getUniqueValues(data: Job[], field: keyof Job): string[] {
-  const values = data.map(job => job[field]);
+  // Only allow fields that return string values for filtering
+  const validFields: (keyof Job)[] = ['type', 'location', 'experience'];
+  
+  if (!validFields.includes(field)) {
+    return [];
+  }
+  
+  const values = data.map(job => job[field] as string);
   return [...new Set(values)].filter(Boolean).sort();
 }
 
