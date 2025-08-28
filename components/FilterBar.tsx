@@ -121,6 +121,60 @@ export default function FilterBar({ jobs, onFiltersChange }: FilterBarProps) {
               ))}
             </select>
 
+            {/* Salary Filter - Now in main filter bar */}
+            <div className="relative">
+              <select
+                value={filters.salaryMin && filters.salaryMax ? `${filters.salaryMin}-${filters.salaryMax}` : ''}
+                onChange={(e) => {
+                  if (e.target.value === '') {
+                    updateFilters({ salaryMin: undefined, salaryMax: undefined });
+                  } else if (e.target.value === 'custom') {
+                    // Don't change filters, just show custom inputs
+                  } else {
+                    const [min, max] = e.target.value.split('-').map(Number);
+                    updateFilters({ salaryMin: min, salaryMax: max });
+                  }
+                }}
+                className="px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 min-w-[140px]"
+              >
+                <option value="">All Salaries</option>
+                {presetSalaryRanges.map((range) => (
+                  <option key={range.label} value={`${range.min}-${range.max}`}>
+                    {range.label}
+                  </option>
+                ))}
+                <option value="custom">Custom Range</option>
+              </select>
+              
+              {/* Custom Salary Inputs - Show when custom is selected or when custom values are set */}
+              {(filters.salaryMin !== undefined || filters.salaryMax !== undefined) && (
+                <div className="absolute top-full left-0 mt-2 p-3 bg-white border border-gray-300 rounded-md shadow-lg z-10 min-w-[300px]">
+                  <div className="flex items-center gap-2 mb-2">
+                    <label className="text-sm font-medium text-gray-600">Custom Range:</label>
+                    <input
+                      type="number"
+                      placeholder="Min"
+                      value={filters.salaryMin || ''}
+                      onChange={(e) => updateFilters({ salaryMin: e.target.value ? parseInt(e.target.value) : undefined })}
+                      className="w-20 px-2 py-1 border border-gray-300 rounded text-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+                    />
+                    <span className="text-gray-500">to</span>
+                    <input
+                      type="number"
+                      placeholder="Max"
+                      value={filters.salaryMax || ''}
+                      onChange={(e) => updateFilters({ salaryMax: e.target.value ? parseInt(e.target.value) : undefined })}
+                      className="w-20 px-2 py-1 border border-gray-300 rounded text-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+                    />
+                    <span className="text-xs text-gray-500">USD/month</span>
+                  </div>
+                  <div className="text-xs text-gray-500">
+                    Available: ${salaryRangeUSD.min.toFixed(0)} - ${salaryRangeUSD.max.toFixed(0)}
+                  </div>
+                </div>
+              )}
+            </div>
+
             {/* Salary Filter Indicator */}
             {(filters.salaryMin !== undefined || filters.salaryMax !== undefined) && (
               <div className="inline-flex items-center px-3 py-2 bg-primary-50 border border-primary-200 rounded-md text-sm text-primary-700">
