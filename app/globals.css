@@ -67,3 +67,28 @@
 .skip-link:focus {
   @apply top-6;
 }
+
+/* Mobile pagination improvements */
+@media (max-width: 640px) {
+  .pagination-mobile {
+    @apply space-y-3;
+  }
+  
+  .pagination-mobile button {
+    @apply min-h-[44px] min-w-[44px];
+  }
+}
+
+/* Touch-friendly pagination buttons */
+@media (hover: none) and (pointer: coarse) {
+  .pagination-button {
+    @apply min-h-[48px] min-w-[48px];
+  }
+}
+
+/* Large screen pagination enhancements */
+@media (min-width: 1024px) {
+  .pagination-desktop {
+    @apply space-x-2;
+  }
+}

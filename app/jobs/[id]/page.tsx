@@ -17,22 +17,22 @@ export default function JobDetailsPage() {
 
   useEffect(() => {
     try {
-      const jobId = params.id as string;
+    const jobId = params.id as string;
       const foundJob = getJobById(jobId);
     
-      if (foundJob) {
-        setJob(foundJob);
-        // Check if job is saved
-        const savedJobs = localStorage.getItem('savedJobs');
-        if (savedJobs) {
-          const savedJobIds = JSON.parse(savedJobs);
-          setIsSaved(savedJobIds.includes(jobId));
-        }
+    if (foundJob) {
+      setJob(foundJob);
+      // Check if job is saved
+      const savedJobs = localStorage.getItem('savedJobs');
+      if (savedJobs) {
+        const savedJobIds = JSON.parse(savedJobs);
+        setIsSaved(savedJobIds.includes(jobId));
       }
+    }
     } catch (error) {
       console.error('Error loading job:', error);
     } finally {
-      setIsLoading(false);
+    setIsLoading(false);
     }
   }, [params.id]);
 
@@ -105,104 +105,104 @@ export default function JobDetailsPage() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Job Details */}
           <div className="lg:col-span-2 space-y-8">
-            {/* Job Header */}
+        {/* Job Header */}
             <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
               <div className="flex items-start justify-between">
-                <div className="flex-1">
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="w-16 h-16 bg-gray-100 rounded-lg flex items-center justify-center">
-                      <span className="text-2xl font-bold text-gray-600">
-                        {job.company.charAt(0)}
-                      </span>
-                    </div>
-                    <div>
-                      <h1 className="text-3xl font-bold text-gray-900 mb-2">{job.title}</h1>
-                      <p className="text-xl text-gray-600 font-medium">{job.company}</p>
-                    </div>
-                  </div>
-
-                  {/* Job Meta */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
-                    <div className="flex items-center gap-2">
-                      <span className="text-gray-500">📍</span>
-                      <span className="text-gray-700">{job.location}</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <span className="text-gray-500">💰</span>
-                      <span className="text-gray-700">{formatSalaryRange(job.salary.min, job.salary.max, job.salary.currency, job.salary.period)}</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <span className="text-gray-500">📅</span>
-                      <span className="text-gray-700">Posted {formatDate(job.postedAt)}</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <span className="text-gray-500">🏢</span>
-                      <span className="text-gray-700">{job.type}</span>
-                    </div>
-                  </div>
-
-                  {/* Tags and Badges */}
-                  <div className="flex flex-wrap items-center gap-3 mb-6">
-                    <span className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium ${getJobTypeColor(job.type)}`}>
-                      {job.type}
-                    </span>
-                    <span className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium ${getExperienceColor(job.experience)}`}>
-                      {job.experience}
-                    </span>
-                    {job.remote && (
-                      <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-                        Remote
-                      </span>
-                    )}
-                  </div>
-
-                  {/* Tags */}
-                  {job.tags && job.tags.length > 0 && (
-                    <div className="flex flex-wrap gap-2">
-                      {job.tags.map((tag, index) => (
-                        <span 
-                          key={index}
-                          className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800"
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  )}
+            <div className="flex-1">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-16 h-16 bg-gray-100 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl font-bold text-gray-600">
+                    {job.company.charAt(0)}
+                  </span>
                 </div>
-
-                {/* Action Buttons */}
-                <div className="flex flex-col gap-3 mt-6 lg:mt-0 lg:ml-6">
-                  <button
-                    onClick={handleSaveToggle}
-                    className={`inline-flex items-center justify-center px-6 py-3 border rounded-md text-sm font-medium transition-colors ${
-                      isSaved 
-                        ? 'border-red-300 text-red-700 bg-red-50 hover:bg-red-100' 
-                        : 'border-gray-300 text-gray-700 bg-white hover:bg-gray-50'
-                    }`}
-                  >
-                    <svg 
-                      className={`mr-2 h-5 w-5 ${isSaved ? 'text-red-600' : 'text-gray-400'}`}
-                      fill={isSaved ? 'currentColor' : 'none'} 
-                      stroke="currentColor" 
-                      viewBox="0 0 24 24"
-                    >
-                      <path 
-                        strokeLinecap="round" 
-                        strokeLinejoin="round" 
-                        strokeWidth={2} 
-                        d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" 
-                      />
-                    </svg>
-                    {isSaved ? 'Saved' : 'Save Job'}
-                  </button>
-
-                  <button className="inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 transition-colors">
-                    Apply Now
-                  </button>
+                <div>
+                  <h1 className="text-3xl font-bold text-gray-900 mb-2">{job.title}</h1>
+                  <p className="text-xl text-gray-600 font-medium">{job.company}</p>
                 </div>
               </div>
+
+              {/* Job Meta */}
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+                <div className="flex items-center gap-2">
+                  <span className="text-gray-500">📍</span>
+                  <span className="text-gray-700">{job.location}</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-gray-500">💰</span>
+                  <span className="text-gray-700">{formatSalaryRange(job.salary.min, job.salary.max, job.salary.currency, job.salary.period)}</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-gray-500">📅</span>
+                  <span className="text-gray-700">Posted {formatDate(job.postedAt)}</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-gray-500">🏢</span>
+                  <span className="text-gray-700">{job.type}</span>
+                </div>
+              </div>
+
+              {/* Tags and Badges */}
+              <div className="flex flex-wrap items-center gap-3 mb-6">
+                <span className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium ${getJobTypeColor(job.type)}`}>
+                  {job.type}
+                </span>
+                <span className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium ${getExperienceColor(job.experience)}`}>
+                  {job.experience}
+                </span>
+                {job.remote && (
+                  <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                    Remote
+                  </span>
+                )}
+              </div>
+
+              {/* Tags */}
+                  {job.tags && job.tags.length > 0 && (
+              <div className="flex flex-wrap gap-2">
+                {job.tags.map((tag, index) => (
+                  <span 
+                    key={index}
+                    className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800"
+                  >
+                    {tag}
+                  </span>
+                ))}
+                  </div>
+                )}
             </div>
+
+            {/* Action Buttons */}
+            <div className="flex flex-col gap-3 mt-6 lg:mt-0 lg:ml-6">
+              <button
+                onClick={handleSaveToggle}
+                className={`inline-flex items-center justify-center px-6 py-3 border rounded-md text-sm font-medium transition-colors ${
+                  isSaved 
+                    ? 'border-red-300 text-red-700 bg-red-50 hover:bg-red-100' 
+                    : 'border-gray-300 text-gray-700 bg-white hover:bg-gray-50'
+                }`}
+              >
+                <svg 
+                  className={`mr-2 h-5 w-5 ${isSaved ? 'text-red-600' : 'text-gray-400'}`}
+                  fill={isSaved ? 'currentColor' : 'none'} 
+                  stroke="currentColor" 
+                  viewBox="0 0 24 24"
+                >
+                  <path 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
+                    strokeWidth={2} 
+                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" 
+                  />
+                </svg>
+                {isSaved ? 'Saved' : 'Save Job'}
+              </button>
+
+              <button className="inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 transition-colors">
+                Apply Now
+              </button>
+            </div>
+          </div>
+        </div>
 
             {/* Job Description */}
             <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
@@ -216,8 +216,8 @@ export default function JobDetailsPage() {
                       {job.requirements.map((req, index) => (
                         <li key={index}>{req}</li>
                       ))}
-                    </ul>
-                  </div>
+              </ul>
+            </div>
                 )}
                 {job.responsibilities && (
                   <div className="mt-6">
@@ -226,8 +226,8 @@ export default function JobDetailsPage() {
                       {job.responsibilities.map((resp, index) => (
                         <li key={index}>{resp}</li>
                       ))}
-                    </ul>
-                  </div>
+              </ul>
+            </div>
                 )}
               </div>
             </div>

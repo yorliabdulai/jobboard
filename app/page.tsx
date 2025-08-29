@@ -92,8 +92,15 @@ export default function HomePage() {
     result = applySort(result, 'postedAt', 'desc');
     
     setFilteredJobs(result);
-    setCurrentPage(1); // Reset to first page when filters change
-  }, [jobs, searchQuery, activeFilters]);
+    // Only reset to first page when search or filters change, not when page changes
+    if (searchQuery || Object.keys(activeFilters).length > 0) {
+      setCurrentPage(1);
+      // Update URL to reflect page reset
+      const params = new URLSearchParams(searchParams);
+      params.set('page', '1');
+      router.replace(`?${params.toString()}`);
+    }
+  }, [jobs, searchQuery, activeFilters, searchParams, router]);
 
   // Handle search
   const handleSearch = (query: string) => {
@@ -233,6 +240,7 @@ export default function HomePage() {
               totalPages={totalPages}
               totalJobs={total}
               jobsPerPage={jobsPerPage}
+              onPageChange={handlePageChange}
             />
           </div>
         )}
